@@ -24,7 +24,7 @@ session_check(true);
       <a href="index.php" class="fa-solid fa-angle-left"></a>
         <h2>Sign Up</h2>
         <label for="input-username">Username</label>
-        <input type="text" name="username" id="input-username" autofocus required>
+        <input type="text" maxlength="50" name="username" id="input-username" autofocus required>
         <label for="input-password">Password</label>
         <input type="password" name="password" id="input-password" required>
         <label for="confirm-password">Confirm Password</label>
